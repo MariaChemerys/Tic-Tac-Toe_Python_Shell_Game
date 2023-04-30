@@ -36,6 +36,7 @@ def make_list_of_free_fields(board):
             row_list.append(field_num)
             field_num += 1
         board.append(row_list)
+        
     # Computer's first move is always in the middle of the board
     board[1][1] = 'X'
     taken_fields.append(5)
