@@ -228,7 +228,6 @@ taken_fields = []
 board = make_list_of_free_fields(board)
 
 if start():
-
     while(True):
         draw_board(board)
         user_move = enter_move(board)
@@ -248,4 +247,3 @@ if start():
             if if_tie(board):
                 draw_board(board)
                 break
-        
