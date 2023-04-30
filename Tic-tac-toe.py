@@ -26,7 +26,7 @@ def start():
             continue
 
 def make_list_of_free_fields(board):
-    # The function browses the board and builds a list of all the free fields
+    # The function builds a list of all the free fields
 
     # Filling the board with values from 1 to 9
     field_num = 1
